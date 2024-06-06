@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#carousel {
+  display: flex;
+  overflow-x: scroll;
+  margin: 20px 0;
+}
+
+#carousel img {
+  height: 150px;
+  margin-right: 10px;
+}
+
+#progressBar {
+  height: 5px;
+  background-color: #4caf50;
+  width: 0%;
+  transition: width 0.4s;
+}
+
+#infoDump {
+  text-align: left;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
